@@ -1,5 +1,5 @@
 body,
-html{
+html {
     /* color: #555; */
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -8,18 +8,18 @@ html{
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     background-image: url('./images/bg-curvy-desktop.svg');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(218, 28%, 13%);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.row{
+.row {
     width: 90%;
     margin: 0 auto;
     padding: 30px 0;
@@ -27,14 +27,14 @@ html{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     height: 35px;
     width: 100px;
 }
 
 .main-nav {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     list-style: none;
 }
 
@@ -45,50 +45,53 @@ html{
 
 .main-nav li a:link,
 .main-nav li a:visited {
-   padding: 8px 0;
-   text-decoration: none;
-   text-transform: capitalize;
-   color: #fff;
-   font-size: 19px;
-   font-weight: 300;
-   font-weight: bolder;
-   /* border-bottom: transparent;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    font-weight: bolder;
+    /* border-bottom: transparent;
    -webkit-transition: border-bottom;
    transition: border-bottom 0.2s;     */
 }
 
 
 /* main section  */
-#main{
+#main {
     text-align: center;
-    width: 600px;
-    margin: auto;
 }
-.main-img{
+
+.main-img img {
     margin: 50px 0px;
-    height: 300px;
-    width: auto;
-    text-align: center;
+    width: 50%;
+    height: auto;
 }
-.main-texts{
+
+.main-texts {
     margin: 30px 0;
 }
-.main-texts h1{
+
+.main-texts h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 30px 0;
+    width: 50%;
+    margin: auto;
 }
-.main-texts p{
+
+.main-texts p {
     font-size: 1.2rem;
     width: 450px;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.btn{
+.btn {
     padding: 14px 70px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 700;
     text-decoration: none;
     border-radius: 200px;
     background-color: hsl(198, 60%, 50%);
@@ -96,12 +99,153 @@ html{
     border: none;
     outline: none;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 /* end of main section */
- #features{
-     width:900px;
-     margin: auto;
- }
 
 /* features section */
+#features {
+    width: 70%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.features_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.features_content_main {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.features_content_main .features_icon {
+    margin-bottom: 30px;
+}
+
+.features_content_main h2 {
+    margin-bottom: 20px;
+}
+
+.features_content_main p {
+    margin-bottom: 30px
+}
+
+/* end of features section */
+
+/* productivity section */
+#productivity {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.productivity_content {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+#productivity .productivity_image img {
+    /* width: 100%; */
+    padding-right: 40px;
+    height: auto;
+    margin-right: 50px;
+}
+
+#productivity .productivity_text {
+    margin-top: 40px;
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 20px;
+}
+
+.productivity_texts h1 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+
+}
+
+.productivity_texts p {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.productivity_texts a {
+    color: hsl(176, 68%, 64%);
+
+}
+
+/* end of productivity section */
+
+
+/* testimonial section */
+#testimonial {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0 10px 0 10px;
+    margin-top: 150px;
+}
+
+.testimonial_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.testimonial_box {
+    width: 400px;
+    margin: auto;
+    padding: 35px 28px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.testimonial_box .box_2 {
+    margin: 0 10px 0 10px;
+
+}
+
+.testimonial_box p {
+    margin-bottom: 20px;
+}
+
+.testimonial_box .profile img {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+}
+
+.testimonial_box .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* end of testimonial section */
+
+
+
+/* sign up section */
+#sign-up{
+    width: 55%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: hsl(217, 28%, 15%);
+    padding: ;
+}
+
+
+/* end of sign up section */
