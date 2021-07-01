@@ -13,7 +13,6 @@ html{
     background-color: hsl(218, 28%, 13%);
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +25,6 @@ html{
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo{
@@ -68,8 +66,9 @@ html{
 }
 .main-img{
     margin: 50px 0px;
-    height: 60%;
-    width: 60%;
+    height: 300px;
+    width: auto;
+    text-align: center;
 }
 .main-texts{
     margin: 30px 0;
@@ -81,11 +80,28 @@ html{
 }
 .main-texts p{
     font-size: 1.2rem;
-    width: 500px;
+    width: 450px;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.main-texts .btn{
-    
+.btn{
+    padding: 14px 70px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
 }
+
+/* end of main section */
+ #features{
+     width:900px;
+     margin: auto;
+ }
+
+/* features section */
