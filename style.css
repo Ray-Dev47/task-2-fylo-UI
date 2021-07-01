@@ -144,35 +144,28 @@ html {
     width: 85%;
     margin: 0 auto;
 }
-
 .productivity_content {
     display: flex;
     flex-direction: row;
     /* align-items: center; */
 }
-
 #productivity .productivity_image img {
     /* width: 100%; */
     padding-right: 40px;
     height: auto;
     margin-right: 50px;
 }
-
 #productivity .productivity_text {
     margin-top: 40px;
     display: flex;
     justify-items: flex-start;
     margin-left: 20px;
 }
-
 .productivity_texts h1 {
     font-size: 30px;
     margin-top: 80px;
     margin-bottom: 30px;
-
-
 }
-
 .productivity_texts p {
     width: 95%;
     margin: auto;
@@ -180,10 +173,8 @@ html {
     justify-items: flex-start;
     margin-bottom: 20px;
 }
-
 .productivity_texts a {
     color: hsl(176, 68%, 64%);
-
 }
 
 /* end of productivity section */
@@ -196,7 +187,6 @@ html {
     padding: 0 10px 0 10px;
     margin-top: 150px;
 }
-
 .testimonial_content {
     display: flex;
     flex-direction: row;
@@ -204,7 +194,6 @@ html {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
 .testimonial_box {
     width: 400px;
     margin: auto;
@@ -213,39 +202,71 @@ html {
     border-radius: 5px;
     margin-bottom: 40px;
 }
-
 .testimonial_box .box_2 {
     margin: 0 10px 0 10px;
-
 }
-
 .testimonial_box p {
     margin-bottom: 20px;
 }
-
 .testimonial_box .profile img {
     border-radius: 50%;
     width: 40%;
     height: auto;
 }
-
 .testimonial_box .profile {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 /* end of testimonial section */
 
 
-
 /* sign up section */
-#sign-up{
+#sign-up {
     width: 55%;
     margin: auto;
     margin-top: 100px;
-    background-color: hsl(217, 28%, 15%);
-    padding: ;
+    text-align: center;
 }
+.sign-up_content {
+    background-color: hsl(217, 28%, 15%);
+}
+.sign-up_content h1 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sign-up_content p {
+    width: 90%;
+    margin: auto;
+}
+.search_bar {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+.searchbar_1>input[type=text] {
+    padding: 15px 110px;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #fff;
+    color: #f4f4f4;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+}
+.searchbar_2 button {
+    display: flex;
+    padding: 14px 70px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    margin-left: 18px;
+    background-color: hsl(176, 68%, 64%);
 
+
+}
 
 /* end of sign up section */
