@@ -304,7 +304,7 @@ section #footer{
     display: flex;
     max-width: 400px;   
     justify-items: flex-start;
-    padding-right: 55px;
+    padding-right: 48px;
     padding-left: 65px;
     padding-bottom: 40px;
 }
@@ -354,9 +354,6 @@ section #footer{
     display: flex;
     font-size: 20px;
 }
-.social-links i {
-    padding: 0 15px;
-}
 .social-links div{
     color: #fff;
     border: 2px solid #fff;
@@ -366,8 +363,8 @@ section #footer{
     align-items: center;
     height: 50px;
     width: 50px;
-    font-size: 120%;
-    margin-right: 25px;
+    font-size: 100%;
+    margin-right: 10px;
 
 }
 
