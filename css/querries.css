@@ -98,6 +98,51 @@
     border-radius: 5px;
     margin-bottom: 40px;
 }
+#sign-up {
+    /* top: -400px; */
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.sign-up_content h1 {
+    padding-top: 35px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.sign-up_content p {
+    width: 100%;
+    margin: auto;
+}
+.search_bar {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.searchbar_1>input[type=text] {
+    padding: 15px 55px;
+
+}
+.searchbar_2 button {
+    display: flex;
+    padding: 14px 70px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    margin-left: 18px;
+    background-color: hsl(176, 68%, 64%);
+}
+.footer_content .footer_logo img{
+    height: 45px;
+    width: auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+.social-links i{
+    text-align: center;
+}
 
 }
 

@@ -226,12 +226,11 @@ html {
 
 /* sign up section */
 #sign-up {
-    top: -400px;
+    /* top: -400px; */
     width: 55%;
     margin: auto;
     margin-top: 100px;
     text-align: center;
-
 }
 .sign-up_content {
     background-color: hsl(217, 28%, 15%);
@@ -277,29 +276,31 @@ html {
 /* footer section */
 section #footer{
     margin-top: 50px;
-    background-color:  hsl(216, 53%, 9%);
 }
 .footer_content{ 
-    padding: 170px 0;
-    width: 90%;
+    padding: 70px 0;
+    width: 100%;
     margin: auto;
+    background-color:  hsl(216, 53%, 9%);
 }
 .footer_content .footer_logo img{
     height: 35px;
     width: 110px;
     margin-bottom: 30px;
     display: flex;
+    padding-left: 20px;
 }
 .footer_location{
     display: flex;
     max-width: 400px;   
     justify-items: flex-start;
-    padding: 50px;
-
+    padding-right: 55px;
+    padding-left: 65px;
+    padding-bottom: 40px;
 }
 .footer_location:first-of-type, 
 .container:first-of-type{
-    padding-left: 0;
+    padding-left: 20px;
 }
 .footer_location img{
     height: 20px;
@@ -322,6 +323,10 @@ section #footer{
     height: 15px;
     width: auto;
 }
+.links{
+    padding-left: 0;
+    
+}
 .links li {
     list-style: none;
     padding-bottom: 15px;
@@ -341,7 +346,6 @@ section #footer{
 }
 .social-links i {
     padding: 0 15px;
-
 }
 
 /* end of footer */
