@@ -113,27 +113,22 @@ html {
     text-align: center;
     margin-top: 100px;
 }
-
 .features_content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
-
 .features_content_main {
     width: 340px;
     margin: 0 auto;
 }
-
 .features_content_main .features_icon {
     margin-bottom: 30px;
 }
-
 .features_content_main h2 {
     margin-bottom: 20px;
 }
-
 .features_content_main p {
     margin-bottom: 30px
 }
@@ -142,18 +137,19 @@ html {
 
 /* productivity section */
 #productivity {
-    width: 85%;
-    margin:  auto;
+    width: 90%;
+    margin: auto;
 }
 .productivity_content {
     display: flex;
+    align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 #productivity .productivity_image img {
     /* width: 100%; */
     padding-right: 40px;
-    width: 95%;
+    width: 100%;
     height: auto;
     margin-right: 30px;
 }
@@ -164,6 +160,7 @@ html {
     margin-left: 10px;
 }
 .productivity_texts h1 {
+    width: 350px;
     font-size: 30px;
     margin-top: 80px;
     margin-bottom: 30px;
