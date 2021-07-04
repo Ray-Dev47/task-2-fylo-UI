@@ -11,6 +11,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(218, 28%, 13%);
+    scroll-behavior: smooth;
 }
 
 * {
@@ -303,7 +304,6 @@ button, .btn:hover{
     margin-left: 18px;
     background-color: hsl(176, 68%, 64%);
 }
-
 /* end of sign up section */
 
 
@@ -393,7 +393,5 @@ section #footer{
     width: 50px;
     font-size: 100%;
     margin-right: 10px;
-
 }
-
 /* end of footer */
