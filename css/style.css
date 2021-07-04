@@ -48,13 +48,18 @@ html {
     padding: 8px 0;
     text-decoration: none;
     text-transform: capitalize;
-    color: #fff;
+    color: #cfcdcd;
     font-size: 19px;
     font-weight: 300;
     font-weight: bolder;
     /* border-bottom: transparent;
    -webkit-transition: border-bottom;
    transition: border-bottom 0.2s;     */
+}
+.main-nav li a:link,
+.main-nav li a:visited:hover{
+    color: #f4f4f4;
+    /* border-bottom: 2px solid white; */
 }
 
 
@@ -101,6 +106,9 @@ html {
     outline: none;
     margin-bottom: 40px;
     cursor: pointer;
+}
+button, .btn:hover{
+    background-color: hsl(176, 68%, 64%);
 }
 
 /* end of main section */
