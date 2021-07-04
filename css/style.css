@@ -196,6 +196,7 @@ html {
     margin-left: 30px;
     padding: 0 10px 0 10px;
     margin-top: 150px;
+    z-index: 3;
 }
 .testimonial_content {
     display: flex;
@@ -227,6 +228,10 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.blockquote_text{
+    color: hsl(176, 68%, 64%);
+    font-size: 15px;
 }
 
 /* end of testimonial section */
