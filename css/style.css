@@ -351,8 +351,7 @@ section #footer{
     width: auto;
 }
 .links{
-    padding-left: 0;
-    
+    padding-left: 0;    
 }
 .links li {
     list-style: none;
@@ -370,6 +369,10 @@ section #footer{
     color: #fff;
     display: flex;
     font-size: 20px;
+    cursor: pointer;
+}
+.social-links div:hover{
+    color: hsl(176, 68%, 64%);
 }
 .social-links div{
     color: #fff;
