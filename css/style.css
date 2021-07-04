@@ -142,6 +142,7 @@ button, .btn:hover{
     margin-bottom: 30px
 }
 
+
 /* end of features section */
 
 /* productivity section */
@@ -302,6 +303,9 @@ button, .btn:hover{
     border: none;
     outline: none;
     margin-left: 18px;
+    background-color: hsl(198, 60%, 50%);
+}
+button, .btn:hover{
     background-color: hsl(176, 68%, 64%);
 }
 /* end of sign up section */
